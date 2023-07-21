@@ -1,0 +1,14 @@
+packages:
+  - name: newsLetter
+    actions:
+      - name: getEmails
+        limits:
+          timeout: 5000
+          memory: 256
+      - name: postEmail
+        limits:
+          timeout: 5000
+          memory: 256
+environment:
+  SHEET_API_URL='https://sheetdb.io/api/v1/j4hph8bw86dni'
+SHEET_API_KEY='Bearer smzk707gex7rfst8qm53jf42ethsrf2ry4d7xh5r'
